@@ -1,7 +1,7 @@
-[Simpless for WordPress](http://aftabkhalid.github.com/animato)
+[Simpless for WordPress](http://aftabkhalid.github.com/simpless)
 =================
 
-Simpless is WordPress theme for personal blogging. Simpless created with Underscore and built with Bootstrap. It's created and maintained by [Aftab Khalid](http://www.aftabkhalid.com).
+Simpless is WordPress theme for personal blogging. Simpless created with [Underscore](http://underscores.me) and built with [Bootstrap] (http://getbootstrap.com). It's created and maintained by [Aftab Khalid](http://www.aftabkhalid.com).
 
 To get started, checkout http://www.aftabkhalid.com
 

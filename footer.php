@@ -9,8 +9,6 @@
  */
 ?>
 
-	</div><!-- #main .site-main -->
-
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
 			<?php do_action( 'simpless_credits' ); ?>
