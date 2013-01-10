@@ -45,6 +45,7 @@ and Blueprint http://www.blueprintcss.org/
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "proxima_nova_thbold", "helvetica neue", "helvetica", sans-serif;
+  font-weight:normal;
   text-transform: uppercase;
   color: #000;
   text-rendering: optimizeLegibility;
@@ -145,8 +146,15 @@ h1, h2, h3, h4, h5, h6 {
 .hentry {
 	margin: 0 0 1.5em;
 }
+.entry-title{
+	margin:0;
+}
 .entry-meta {
 	clear: both;
+	font-family: 'proxima_nova_rgregular';
+	font-size:13px;
+	margin-top:-10px;
+	color:#999;
 }
 .byline {
 	display: none;
