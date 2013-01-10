@@ -223,9 +223,8 @@ textarea {
 
 body {
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 20px;
+   font: 17px/28px ff-meta-serif-web-pro, "Georgia", serif;
+
   color: #333333;
   background-color: #ffffff;
 }
@@ -648,7 +647,7 @@ a:hover {
 }
 
 p {
-  margin: 0 0 10px;
+  margin: 0 0 28px 0;
 }
 
 .lead {

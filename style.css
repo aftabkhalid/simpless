@@ -19,7 +19,36 @@ and Blueprint http://www.blueprintcss.org/
 */
 
 @import url('css/bootstrap.css');
-@import url('css/bootstrap-responsive.css');
+/*@import url('css/bootstrap-responsive.css');*/
+
+@font-face {
+    font-family: 'proxima_nova_thbold';
+    src: url('fonts/proximanova-extrabold.eot');
+    src: url('fonts/proximanova-extrabold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proximanova-extrabold.woff') format('woff'),
+         url('fonts/proximanova-extrabold.ttf') format('truetype'),
+         url('fonts/proximanova-extrabold.svg#proxima_nova_thbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url('fonts/proximanova-regular.eot');
+    src: url('fonts/proximanova-regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proximanova-regular.woff') format('woff'),
+         url('fonts/proximanova-regular.ttf') format('truetype'),
+         url('fonts/proximanova-regular.svg#proxima_nova_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "proxima_nova_thbold", "helvetica neue", "helvetica", sans-serif;
+  text-transform: uppercase;
+  color: #000;
+  text-rendering: optimizeLegibility;
+}
 
 /* Alignment */
 .alignleft {
@@ -33,9 +62,7 @@ and Blueprint http://www.blueprintcss.org/
 	margin-left: 1.5em;
 }
 .aligncenter {
-	clear: both;
-	display: block;
-	margin: 0 auto;
+	text-align:center;
 }
 
 /* Text meant only for screen readers */
@@ -255,4 +282,114 @@ object {
 /* Search widget */
 #searchsubmit {
 	display: none;
+}
+
+/* =Simpless Styles
+----------------------------------------------- */
+
+.site-title{
+	display:block;
+	width:42px;
+	height:31px;
+	float:left;
+	background-image:url(images/small-logo-aftabkhalid2.png);
+}
+.site-title a{
+	display:block;
+	width:42px;
+	height:31px;
+	text-indent:-999em;
+}
+.site-description{
+	float:left;
+	font-size:11px;
+	color:#999;
+	line-height:37px;
+	border-left:solid 1px #eee;
+	margin-left:25px;
+	padding-left:20px;
+}
+
+.menu{
+	float:right;
+	margin-top:18px;
+}
+.menu ul li a{
+	margin:0 15px;
+	font-family: 'proxima_nova_thbold';
+	font-size:14px;
+	color:#000;
+	text-transform:uppercase;
+}
+.menu ul li a:hover{
+	color:#08C;
+}
+.menu ul li.current_page_item a{
+	color:#005580;
+}
+
+.jumbotron{
+	background-image:url(images/chase-happiness.jpg);
+	background-position:center;
+	height:650px;
+	margin-bottom:60px;
+}
+
+.jumbotron .masthead{
+	text-align:center;
+	margin:25% 0 0;
+}
+.jumbotron .masthead h1,
+.jumbotron .masthead h2{
+	color:#fff;
+	text-shadow: 0px 1px 15px #444;
+    filter: dropshadow(color=#444, offx=0, offy=1);
+}
+.jumbotron .masthead h1{
+	font-size:86px;
+}
+.jumbotron .masthead h2{
+	font-size:28px;
+}
+
+.site-footer{
+	font-family: 'proxima_nova_rgregular';
+	text-transform:uppercase;
+	font-size:13px;
+}
+.site-footer .container{
+	border-top:solid 1px #cecece;
+	padding:25px 0;
+}
+.site-footer a{
+	color:#777;
+	text-decoration:none;
+}
+.site-footer a:hover{
+	color:#333;
+}
+
+.social{
+	float:right;
+}
+.social a{
+	background-image:url(images/social-icons.png);
+	background-repeat:no-repeat;
+	width:21px;
+	height:21px;
+	display:inline-block;
+	text-indent:-999em;
+	opacity:.7;
+}
+.social a:hover{
+	opacity:1;
+}
+.social a.s-linkedin{
+	background-position:-20px 0;
+}
+.social a.s-behance{
+	background-position:-40px 0;
+}
+.social a.s-github{
+	background-position:-60px 0;
 }

@@ -14,9 +14,18 @@
 
 get_header(); ?>
 	
+    <section class="jumbotron">
+    	<div class="container">
+        	<div class="masthead">
+            	<h1>Good design</h1>
+                <h2>begins with honesty, asks tough questions, comes from collaboration and from trusting your intuition.</h2>
+            </div>
+        </div>
+    </section>
+    
     <div class="container">
     	<div class="row">
-        	<div class="span12">
+        	<div class="span8 offset2">
                 <div id="primary" class="content-area">
                     <div id="content" class="site-content" role="main">
         

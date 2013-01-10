@@ -10,13 +10,28 @@
 ?>
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<?php do_action( 'simpless_credits' ); ?>
-			<a href="http://wordpress.org/" title="<?php esc_attr_e( 'A Semantic Personal Publishing Platform', 'simpless' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'simpless' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'simpless' ), 'simpless', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon .site-footer -->
+    	<div class="container">
+            <div class="row">
+            	<div class="span4">
+                	<div class="copyright">
+                    	<a href="">Back to top</a>
+                    </div>
+                </div>
+                <div class="span4 aligncenter">
+					<?php posts_nav_link(' &nbsp;|&nbsp; ', '&larr; previous page', 'next page &rarr;'); ?>
+                </div>
+                <div class="span4">
+                	<div class="social">
+                    	<a href="#" class="s-twitter">Twitter</a>
+                        <a href="#" class="s-linkedin">Linkedin</a>
+                        <a href="#" class="s-behance">Behance</a>
+                        <a href="#" class="s-github">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>        
+	</footer><!-- #colophon .site-footer -->    
+    
 </div><!-- #page .hfeed .site -->
 
 <?php wp_footer(); ?>
