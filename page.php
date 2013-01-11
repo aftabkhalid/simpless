@@ -13,19 +13,33 @@
 
 get_header(); ?>
 
-		<div id="primary" class="content-area">
-			<div id="content" class="site-content" role="main">
+    <section class="jumbotron">
+    	<div class="container">
+        	<div class="masthead">
+            	<h1>Good design</h1>
+                <h2>begins with honesty, asks tough questions, comes from collaboration and from trusting your intuition.</h2>
+            </div>
+        </div>
+    </section>
 
-				<?php while ( have_posts() ) : the_post(); ?>
+	<div class="container">
+    	<div class="row">
+        	<div class="span8 offset2">
+                <div id="primary" class="content-area">
+                    <div id="content" class="site-content" role="main">
+        
+                        <?php while ( have_posts() ) : the_post(); ?>
+        
+                            <?php get_template_part( 'content', 'page' ); ?>
+        
+                            <?php comments_template( '', true ); ?>
+        
+                        <?php endwhile; // end of the loop. ?>
+        
+                    </div><!-- #content .site-content -->
+                </div><!-- #primary .content-area -->	
+            </div>
+        </div>
+    </div>
 
-					<?php get_template_part( 'content', 'page' ); ?>
-
-					<?php comments_template( '', true ); ?>
-
-				<?php endwhile; // end of the loop. ?>
-
-			</div><!-- #content .site-content -->
-		</div><!-- #primary .content-area -->
-
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
