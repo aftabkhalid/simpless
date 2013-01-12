@@ -20,6 +20,22 @@ get_header(); ?>
             	<h1>Good design</h1>
                 <h2>begins with honesty, asks tough questions, comes from collaboration and from trusting your intuition.</h2>
             </div>
+            <div class="who-im">
+            	<h3><a href="#">Who i am?</a></h3>
+            </div>
+        </div>
+    </section>
+    
+    <section class="technologies">
+    	<div class="container">
+        	<h4>Technologies i'm using!</h4>
+            <div class="technologies-logos">
+       	    	<img src="<?php bloginfo('template_directory'); ?>/images/logo-html5.png" alt="HTML5" title="HTML5" />
+                <img src="<?php bloginfo('template_directory'); ?>/images/logo-css3.png" alt="CSS3" title="CSS3" />
+                <img src="<?php bloginfo('template_directory'); ?>/images/logo-jquery.png" alt="jQuery" title="jQuery" />
+                <img src="<?php bloginfo('template_directory'); ?>/images/logo-jquery-mobile.png" alt="jQuery Mobile" title="jQuery Mobile" />
+                <img src="<?php bloginfo('template_directory'); ?>/images/logo-bootstrap.png" alt="Bootstrap" title="Bootstrap" />
+            </div>
         </div>
     </section>
     

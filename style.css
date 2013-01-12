@@ -19,7 +19,7 @@ and Blueprint http://www.blueprintcss.org/
 */
 
 @import url('css/bootstrap.css');
-/*@import url('css/bootstrap-responsive.css');*/
+@import url('css/bootstrap-responsive.css');
 
 @font-face {
     font-family: 'proxima_nova_thbold';
@@ -339,13 +339,13 @@ object {
 .jumbotron{
 	background-image:url(images/chase-happiness.jpg);
 	background-position:center;
-	height:650px;
-	margin-bottom:60px;
+	background-size: cover;
+	height:590px;
 }
 
 .jumbotron .masthead{
 	text-align:center;
-	margin:25% 0 0;
+	margin:18% 0 0;
 }
 .jumbotron .masthead h1,
 .jumbotron .masthead h2{
@@ -358,6 +358,58 @@ object {
 }
 .jumbotron .masthead h2{
 	font-size:28px;
+}
+.who-im{
+	text-align:center;
+	margin:60px auto 0;
+	width:150px;
+}
+.who-im h3{
+	color:#fff;
+}
+.who-im h3 a{
+	color:rgba(255, 255, 255, 1);
+	text-decoration:none;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	font-style:italic;
+	text-transform:none;
+	width:130px;
+	height:85px;
+	background-color:#000;
+	border-radius:300px;
+	padding:45px 0 0;
+	display:block;
+}
+.who-im h3 a:hover{
+	color:rgba(0, 0, 0, 1);
+	background-color:#fff;
+}
+.line-lighter{
+	border-bottom:solid 1px rgba(255, 255, 255, 0.3);
+	width:150px;
+	margin-top:30px;
+}
+.line-darker{
+	border-bottom:solid 1px rgba(0, 0, 0, 0.4);
+	width:150px;
+	margin-top:30px;
+}
+
+.technologies{
+	background-color:#EDF3F3;
+	text-align:center;
+	margin-bottom:60px;
+	padding:20px 0;
+	border-bottom:solid 1px #dbdbdb;
+}
+.technologies h4{
+	font-size:20px;
+	color:#666;
+	margin-bottom:20px;
+}
+.technologies-logos img{
+	margin:0 10px;
 }
 
 .site-footer{
