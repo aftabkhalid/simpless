@@ -16,7 +16,7 @@ get_header(); ?>
     <section class="jumbotron jumbotron-inner">
     	<div class="container">
         	<div class="masthead">
-                <h2>begins with honesty, asks tough questions, comes from collaboration and from trusting your intuition.</h2>
+                <h2>When you take technology and mix it with art, you always come up with something innovative.</h2>
             </div>
         </div>
     </section>
