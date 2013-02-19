@@ -338,7 +338,7 @@ object {
 
 .jumbotron{
 	background-image:url(images/chase-happiness.jpg);
-	background-position:center;
+	background-position:center -40px;
 	background-size: cover;
 	height:590px;
 }
@@ -350,8 +350,8 @@ object {
 .jumbotron .masthead h1,
 .jumbotron .masthead h2{
 	color:#fff;
-	text-shadow: 0px 1px 15px #444;
-    filter: dropshadow(color=#444, offx=0, offy=1);
+	text-shadow: 0px 1px 15px #000;
+    filter: dropshadow(color=#000, offx=0, offy=1);
 }
 .jumbotron .masthead h1{
 	font-size:86px;

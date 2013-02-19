@@ -21,7 +21,7 @@ get_header(); ?>
                 <h2>begins with honesty, asks tough questions, comes from collaboration and from trusting your intuition.</h2>
             </div>
             <div class="who-im">
-            	<h3><a href="#">Who i am?</a></h3>
+            	<h3><a href="http://www.aftabkhalid.com/about/">Who i am?</a></h3>
             </div>
         </div>
     </section>

@@ -22,10 +22,10 @@
                 </div>
                 <div class="span4">
                 	<div class="social">
-                    	<a href="#" class="s-twitter">Twitter</a>
-                        <a href="#" class="s-linkedin">Linkedin</a>
-                        <a href="#" class="s-behance">Behance</a>
-                        <a href="#" class="s-github">GitHub</a>
+                    	<a href="http://www.twitter.com/aftabkhalid" class="s-twitter">Twitter</a>
+                        <a href="http://www.linkedin.com/in/aftabkhalid" class="s-linkedin">Linkedin</a>
+                        <a href="http://www.behance.net/aftabkhalid" class="s-behance">Behance</a>
+                        <a href="http://www.github.com/aftabkhalid" class="s-github">GitHub</a>
                     </div>
                 </div>
             </div>
