@@ -359,6 +359,15 @@ object {
 .jumbotron .masthead h2{
 	font-size:28px;
 }
+
+.jumbotron-inner{
+	height:200px;
+	margin-bottom:40px;
+}
+.jumbotron-inner .masthead{
+	margin:7% 0 0;
+}
+
 .who-im{
 	text-align:center;
 	margin:60px auto 0;
@@ -380,11 +389,36 @@ object {
 	border-radius:300px;
 	padding:45px 0 0;
 	display:block;
+	-webkit-transition-duration:.25s;
+	-moz-transition-duration:.25s;
+	-ms-transition-duration:.25s;
+	-o-transition-duration:.25s;
+	transition-duration:.25s;
+	-webkit-transition-timing-function:ease-in-out;
+	-moz-transition-timing-function:ease-in-out;
+	-ms-transition-timing-function:ease-in-out;
+	-o-transition-timing-function:ease-in-out;
+	transition-timing-function:ease-in-out;
 }
 .who-im h3 a:hover{
 	color:rgba(0, 0, 0, 1);
 	background-color:#fff;
 }
+.who-im h3 a:active {
+	color:#fff;
+	background:#000;
+	-webkit-transition-duration:.1s;
+	-moz-transition-duration:.1s;
+	-ms-transition-duration:.1s;
+	-o-transition-duration:.1s;
+	transition-duration:.1s;
+	-webkit-transition-timing-function:ease-in-out;
+	-moz-transition-timing-function:ease-in-out;
+	-ms-transition-timing-function:ease-in-out;
+	-o-transition-timing-function:ease-in-out;
+	transition-timing-function:ease-in-out
+}
+
 .line-lighter{
 	border-bottom:solid 1px rgba(255, 255, 255, 0.3);
 	width:150px;
@@ -452,4 +486,11 @@ object {
 }
 .social a.s-github{
 	background-position:-60px 0;
+}
+
+.x-big-heading{
+	font-size:160px;
+	line-height: 110px;
+	text-transform:none;	
+	margin-left:-9px;
 }

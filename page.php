@@ -13,10 +13,9 @@
 
 get_header(); ?>
 
-    <section class="jumbotron">
+    <section class="jumbotron jumbotron-inner">
     	<div class="container">
         	<div class="masthead">
-            	<h1>Good design</h1>
                 <h2>begins with honesty, asks tough questions, comes from collaboration and from trusting your intuition.</h2>
             </div>
         </div>
