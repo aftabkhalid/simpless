@@ -109,7 +109,7 @@ get_header(); ?>
     <div class="container">
 		<div class="row">
         	<div class="span3">
-            	<h1>Search</h1>
+            	<h2>Search</h2>
             </div>
         	<div class="span9 search">
                 <form role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">

@@ -499,6 +499,16 @@ hr {
   border-top: 1px solid #ccc;
 }
 
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #09F;
+  text-decoration:none;
+}
+
 [role="archives"] .entry-content{
 	margin-top:0;
 	padding:0 0 40px;
@@ -508,13 +518,7 @@ hr {
 	font-family: 'proxima_nova_rgregular';
 	line-height:1;
 }
-[role="archives"] .entry-title a{
-	color:#000;
-	text-decoration:none;
-}
-[role="archives"] .entry-title a:hover{
-	color:#09F;
-}
+
 [role="archives"] .entry-meta{
 	margin-top:0px;
 }

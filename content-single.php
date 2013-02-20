@@ -7,7 +7,7 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<h2 class="entry-title"><?php the_title(); ?></h2>
+		<h3 class="entry-title"><?php the_title(); ?></h3>
 
 		<div class="entry-meta">
 			<?php simpless_posted_on(); ?>
