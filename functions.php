@@ -109,6 +109,8 @@ function simpless_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'simpless_scripts' );
 
+
+
 /**
  * Implement the Custom Header feature
  */

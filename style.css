@@ -338,7 +338,7 @@ object {
 
 .jumbotron{
 	background-image:url(images/chase-happiness.jpg);
-	background-position:center -40px;
+	background-position:center 0px;
 	background-size: cover;
 	height:590px;
 }
@@ -493,4 +493,58 @@ object {
 	line-height: 110px;
 	text-transform:none;	
 	margin-left:-9px;
+}
+
+hr {
+  border-top: 1px solid #ccc;
+}
+
+[role="archives"] .entry-content{
+	margin-top:0;
+	padding:0 0 40px;
+	border-bottom:solid 1px #ccc;
+}
+[role="archives"] .entry-title{
+	font-family: 'proxima_nova_rgregular';
+	line-height:1;
+}
+[role="archives"] .entry-title a{
+	color:#000;
+	text-decoration:none;
+}
+[role="archives"] .entry-title a:hover{
+	color:#09F;
+}
+[role="archives"] .entry-meta{
+	margin-top:0px;
+}
+
+[role="archives"] .entry-header{
+	border-bottom:solid 1px #ccc;
+	height:124px;
+}
+
+.archive-post {
+	margin-left: -20px;
+	*zoom: 1;
+	margin-top:20px;
+	margin-bottom:40px;
+}
+
+.archive-post:before,
+.archive-post:after {
+	display: table;
+	line-height: 0;
+	content: "";
+}
+
+.archive-post:after {
+	clear: both;
+}
+
+.search{
+	padding-top:6px;
+}
+.search input[type="text"]{
+	height:43px;
 }

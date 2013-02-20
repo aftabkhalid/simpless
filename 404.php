@@ -24,13 +24,11 @@ get_header(); ?>
             
                         <article id="post-0" class="post error404 not-found">
                             <header class="entry-header">
-                                <h1 class="entry-title"><?php _e( 'Oops! That page can&rsquo;t be found.', 'simpless' ); ?></h1>
+                                <h2 class="entry-title"><?php _e( 'Oops! That page can&rsquo;t be found.', 'simpless' ); ?></h2>
                             </header><!-- .entry-header -->
             
                             <div class="entry-content">
                                 <p><?php _e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'simpless' ); ?></p>
-            
-                                <?php get_search_form(); ?>
             
                                 <?php the_widget( 'WP_Widget_Recent_Posts' ); ?>
             
