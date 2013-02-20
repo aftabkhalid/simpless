@@ -43,6 +43,11 @@ and Blueprint http://www.blueprintcss.org/
     font-style: normal;
 }
 
+body {
+
+  color: #444;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "proxima_nova_thbold", "helvetica neue", "helvetica", sans-serif;
   font-weight:normal;
