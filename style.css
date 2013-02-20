@@ -552,3 +552,12 @@ a:hover {
 .search input[type="text"]{
 	height:43px;
 }
+
+.site-name{
+	position:absolute;
+	left:88px;
+	width:260px;
+	background-color:#fff;
+	letter-spacing:-1px;
+	display:none;
+}

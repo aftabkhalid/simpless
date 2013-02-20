@@ -20,6 +20,19 @@
     <![endif]-->
     
     <?php wp_head(); ?>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script>
+		$(document).ready(function() { 
+			$(".site-title").mouseover( function(){
+				$(".site-name").show({
+					left: '88px',
+				});
+			}).mouseout(function(){
+				$(".site-name").hide();
+			});
+		});
+    </script>
+
 </head>
 
 <body <?php body_class(); ?>>
@@ -28,9 +41,10 @@
         <header id="masthead" class="site-header" role="banner">
             <div class="container">
                 <div class="row">
-                    <div class="span5">
+                    <div class="span5" style="position:relative">
                         <hgroup>
-                            <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+                            <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+                            <h2 class="site-name">Aftab Khalid</h2>
                             <h6 class="site-description"><?php bloginfo( 'description' ); ?></h6>
                         </hgroup>
                     </div>
